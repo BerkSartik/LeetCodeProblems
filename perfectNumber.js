@@ -13,4 +13,4 @@ var checkPerfectNumber = function (number) {
     return sum === number;
 };
 
-console.log(checkPerfectNumber(496));
+console.log(checkPerfectNumber(28));
