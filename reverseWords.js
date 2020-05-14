@@ -6,7 +6,7 @@ var reverseWords = function (s) {
         sentence[i] = sentence[i].split("").reverse().join("");
         console.log(sentence[i]);
     }
-    return x;
+  return sentence.join(" ");
 };
 
 console.log(reverseWords("Let's take LeetCode contest"));
